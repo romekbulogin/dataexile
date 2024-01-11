@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: authorization-service
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/dataexile
+    username: postgres
+    password: 1337
+secret:
+  key: 0JvQrtCR0JvQriDQodCe0KHQkNCi0Kwg0JHQntCb0KzQqNCY0JUg0JLQntCb0J7QodCQ0KLQq9CVINCl0KPQmA==
+logging:
+  config: 'classpath:log4j2.yml'
