@@ -1,4 +1,4 @@
-package ru.dataexile.authorizationservice.dto.requst
+package ru.dataexile.authorizationservice.dto.request
 
 data class AuthenticationRequest(
     var username: String,
