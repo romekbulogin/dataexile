@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: datagate-service
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/dataexile
+    username: postgres
+    password: 1337
+logging:
+  config: 'classpath:log4j2.yml'
